@@ -6,6 +6,6 @@ use App\Http\Controllers\BarangController;
 Route::get('/', function () {
     return view('welcome');
 
-Route::get('/barang', [BarangController::class, 'tampilkan']);
-
 });
+
+Route::get('/barang', [BarangController::class, 'tampilkan']);
